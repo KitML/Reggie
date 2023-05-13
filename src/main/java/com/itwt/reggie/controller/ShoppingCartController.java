@@ -75,7 +75,7 @@ public class ShoppingCartController {
     }
 
     /*
-    * 清空购物车
+    * 清空购物车实现
     * */
     @DeleteMapping("/clean")
     public R<String> clean(){
