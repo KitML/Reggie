@@ -23,7 +23,7 @@ public class ShoppingCartController {
 
 
     /*
-    * 添加购物车
+    * 添加购物车实现
     * */
     @PostMapping("/add")
     public R<ShoppingCart> add(@RequestBody ShoppingCart shoppingCart){
